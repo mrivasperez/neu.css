@@ -14,6 +14,22 @@ body {
   background-color: ;
 }
 
+img {
+  margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #ffffff;
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
 /* Navbar */
 a {
   text-decoration: none;
@@ -30,6 +46,7 @@ header {
   font-family: sans-serif;
   background-color: #414141;
 }
+
 .brand {
   width: auto;
   height: 100%;
@@ -89,9 +106,13 @@ header {
 
 /* Columns */
 .column-2 {
-  margin; 0 15px 0 15px;
   float: left;
   width: 50%;
+}
+
+.padded {
+  padding: 15px;
+  background-color: #1abc9c02;
 }
 
 .column-3 {
@@ -100,24 +121,25 @@ header {
 }
 
 .card {
-    height: 100%;
-margin: 20px;
+  height: 100%;
+  margin: 20px;
   padding: 30px;
   border-radius: 15px;
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 5px 5px 10px #ababab, -5px -5px 10px #ffffff;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.card > h1, h2, h3, h4, p {
-
-    margin: 10px 0 15px 0;
-
+.card > h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px 0 15px 0;
 }
 
-.card:hover{
-    box-shadow:  5px 5px 10px #666666, 
-             -5px -5px 10px #ffffff;
+.card:hover {
+  transform: scale(1.02);
 }
 
 .row {
