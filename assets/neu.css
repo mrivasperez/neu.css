@@ -108,6 +108,37 @@ header {
   padding: 15px;
 }
 
+/* buttons */
+.a-btn {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 8px #ababab, -5px -5px 10px #ffffff;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.a-btn:hover {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 10px 10px 20px #ababab, -5px -5px 10px #ffffff;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.a-btn:active {
+  transform: scale(0.9);
+  border-radius: 15px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 5px 5px 10px #757575, -5px -5px 10px #ffffff;
+}
+
+.rnd-btn
+
 /* --- Responsive --- */
 
 /* Columns */
