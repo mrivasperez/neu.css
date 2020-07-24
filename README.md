@@ -82,6 +82,8 @@ Dual Columns:
 
 #### Three Columns
 
+![Example of two columns](assets/readmeImages/threeCols.png)
+
 ```
 Three Columns:
 
