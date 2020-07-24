@@ -17,9 +17,9 @@ To download neu.CSS and use it on your project, all you need to download is the 
 
 ## Components
 
-### Creating a button
+### Buttons
 
-#### Creating a regular button
+#### Regular Button
 
 ![Example of button](assets/readmeImages/buttonReg.png)
 
